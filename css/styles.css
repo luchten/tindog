@@ -1,0 +1,147 @@
+#title {
+    background-color: #ff4c68;      
+}
+
+.container-fluid {
+    padding: 3% 15% 10%;
+}
+
+.btn-download {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5% 3% 0 0;        
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;    
+}
+
+h3 {
+    font-family: "Montserrat";
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.main-img-div {
+    position: relative; 
+}
+
+.main-img {
+    transform: rotate(20deg);      
+    width: 50%; 
+    position: absolute;
+    right: 20%;
+}
+
+.feature-div {
+    padding: 0 9%; 
+    text-align: center;       
+}
+
+#features {
+    position: relative;
+    padding: 5% 10%;
+    background-color: white;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+p {
+    color: darkgray;
+    font-weight: bold;
+}
+
+.fas {
+    color: #ef8172;
+    margin-bottom: 15px;
+}
+
+.fas:hover {
+    color: #ff4c68;
+}
+
+.navbar {
+    padding-bottom: 70px;
+}
+
+.nav-item {
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;    
+}
+
+.press-img {
+    width: 12%;
+    margin: 0 20px;
+}
+
+.carousel-item {
+    padding: 2% 20%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-col {
+    padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+    .main-img {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+    .btn-download {
+        margin-bottom: 15%;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 25%;    
+}
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+.footer-icon {
+    display: inline-block;
+    color: black;
+    margin: 20px;
+}
